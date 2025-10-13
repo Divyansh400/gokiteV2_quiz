@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kite AI V2 | The Agentic Future, Realized</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="title" content="Kite AI - Building the Agentic Internet">
+  <meta name="description" content="Pioneering the future with Kite AI's infrastructure for autonomous AI agents. Explore our interactive ecosystem, including BitMind, Nubila, and APRO.">
+  <meta name="keywords" content="AI agents, autonomous AI, Web3, agentic internet, AI infrastructure, glassmorphism, interactive AI">
+  <link rel="canonical" href="https://kite.ai">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kite AI - Building the Agentic Internet">
+  <meta property="og:description" content="Pioneering autonomous AI agent infrastructure">
+  <meta property="og:image" content="/og-image.jpg">
+  <meta property="og:url" content="https://kite.ai">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kite AI - Building the Agentic Internet">
+  <meta name="twitter:description" content="Pioneering autonomous AI agent infrastructure">
+  <meta name="twitter:image" content="/og-image.jpg">
+  
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets & Scripts -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+<body>
+  
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Background & UI Elements -->
+  <div class="aurora-bg" aria-hidden="true">
+    <canvas class="particle-network"></canvas>
+  </div>
+  <div class="scroll-progress-bar" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="custom-cursor" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="main-nav container" aria-label="Main navigation">
+      <a href="/" class="logo" aria-label="Kite AI Home">
+        <span class="logo-text">Kite AI</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#ecosystem">Ecosystem</a></li>
+        <li><a href="#stats">Stats</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#insights">Insights</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark mode">
+          <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.106a.75.75 0 010 1.06l-1.591 1.59a.75.75 0 01-1.06-1.061l1.59-1.591a.75.75 0 011.06 0zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5h2.25a.75.75 0 01.75.75zM17.836 17.836a.75.75 0 01-1.06 0l-1.59-1.591a.75.75 0 011.06-1.06l1.591 1.59a.75.75 0 010 1.061zM12 18a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.894 17.836a.75.75 0 010-1.06l1.591-1.59a.75.75 0 111.06 1.06l-1.59 1.591a.75.75 0 01-1.06 0zM4.5 12a.75.75 0 01-.75.75H1.5a.75.75 0 010-1.5h2.25a.75.75 0 01.75.75zM6.106 6.106a.75.75 0 011.06 0l1.591 1.59a.75.75 0 01-1.06 1.061L6.106 7.167a.75.75 0 010-1.06z"/>
+          </svg>
+          <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 004.463-.976.75.75 0 01.818.162A10.501 10.501 0 0118 22.5a10.5 10.5 0 01-10.5-10.5c0-4.368 2.667-8.112 6.46-9.672a.75.75 0 01.568-.11z" clip-rule="evenodd" />
+          </svg>
+        </button>
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div id="hero-canvas-container" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <h1 class="hero-title">
+          <span class="gradient-text">The Agentic Future,</span>
+          <br>Realized.
+        </h1>
+        <p class="hero-description">We build the foundational protocols for a new internet—one powered by autonomous, intelligent AI agents.</p>
+        <div class="hero-actions">
+          <a href="#ecosystem" class="btn btn-primary">
+            <span>Explore the Tech</span>
+            <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clip-rule="evenodd" />
+            </svg>
+          </a>
+          <a href="#quiz" class="btn btn-secondary">
+            <span>Test Your Knowledge</span>
+          </a>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator" aria-hidden="true">
+          <span>Scroll to explore</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v16.19l6.22-6.22a.75.75 0 111.06 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 111.06-1.06l6.22 6.22V3a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+<!-- Interactive Ecosystem Section -->
+<section id="ecosystem" class="ecosystem-section">
+  <div class="container">
+    <header class="section-header">
+      <h2>Interactive Ecosystem Explorer</h2>
+      <p>Hover or tap a protocol to see how it connects to the Kite AI network.</p>
+    </header>
+    
+    <div class="ecosystem-container">
+      <div class="ecosystem-grid" role="application" aria-label="Protocol connection visualizer">
+        
+        <!-- BitMind with Image -->
+        <button class="protocol-node" data-protocol="bitmind" data-connects="nubila,app" aria-label="BitMind protocol">
+          <img src="./bitmard.jpg" alt="BitMind" class="protocol-image">
+          <span class="protocol-name">BitMind</span>
+        </button>
+        
+        <!-- Nubila with Image -->
+        <button class="protocol-node" data-protocol="nubila" data-connects="bitmind,apro,app,carv" aria-label="Nubila protocol">
+          <img src="./nubila.jpg" alt="Nubila" class="protocol-image">
+          <span class="protocol-name">Nubila</span>
+        </button>
+        
+        <!-- APRO with Image -->
+        <button class="protocol-node" data-protocol="apro" data-connects="nubila" aria-label="APRO protocol">
+          <img src="./apro.jpg" alt="APRO" class="protocol-image">
+          <span class="protocol-name">APRO</span>
+        </button>
+        
+        <!-- APP with Image -->
+        <button class="protocol-node" data-protocol="app" data-connects="bitmind,nubila,carv" aria-label="APP protocol">
+          <img src="./pi.jpg" alt="PI squared" class="protocol-image">
+          <span class="protocol-name">PI squared</span>
+        </button>
+        
+        <!-- CARV with Image -->
+        <button class="protocol-node" data-protocol="carv" data-connects="nubila,app" aria-label="CARV protocol">
+          <img src="./carv.jpg" alt="CARV" class="protocol-image">
+          <span class="protocol-name">CARV</span>
+        </button>
+      </div>
+      
+      <div id="ecosystem-info" class="ecosystem-info glass-card" role="region" aria-live="polite">
+        <h3>Select a protocol to learn more.</h3>
+        <p>Our ecosystem is a tightly integrated network of specialized protocols, each serving a critical function for autonomous agents.</p>
+      </div>
+    </div>
+    
+    <svg class="ecosystem-connections" aria-hidden="true"></svg>
+  </div>
+</section>
+        
+        <!-- Connection Canvas -->
+        <svg class="ecosystem-connections" aria-hidden="true"></svg>
+      </div>
+    </section>
+
+    <!-- Animated Stats Section (NEW) -->
+    <section id="stats" class="stats-section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Powering the Agentic Economy</h2>
+          <p>Real-time metrics from our growing ecosystem</p>
+        </header>
+        <div class="stats-grid">
+          <div class="stat-card glass-card">
+            <div class="stat-icon">🤖</div>
+            <div class="stat-number" data-target="10000" data-suffix="">0</div>
+            <div class="stat-label">Active Agents</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-icon">🤝</div>
+            <div class="stat-number" data-target="50" data-suffix="+">0</div>
+            <div class="stat-label">Ecosystem Partners</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-icon">⚡</div>
+            <div class="stat-number" data-target="1000000" data-suffix="">0</div>
+            <div class="stat-label">Transactions/Day</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-icon">✅</div>
+            <div class="stat-number" data-target="99.9" data-suffix="%">0</div>
+            <div class="stat-label">Uptime</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz-section">
+      <div class="container">
+        <div class="quiz-container glass-card">
+            <header class="section-header">
+              <h2 id="quiz-heading">Are You an Agentic Expert?</h2>
+              <p>Test your knowledge of the Kite AI ecosystem.</p>
+            </header>
+            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div id="quiz-content">
+              <h3 id="question">Loading question...</h3>
+              <ul class="options" id="options" role="radiogroup" aria-labelledby="question"></ul>
+              <button class="btn btn-primary" id="next-btn" disabled>
+                <span>Next Question</span>
+                <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clip-rule="evenodd" />
+                </svg>
+              </button>
+              <div class="explanation" id="explanation"></div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadmap Section (NEW) -->
+    <section id="roadmap" class="roadmap-section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Our Journey</h2>
+          <p>
+                <!-- Roadmap Section (NEW) - Continued -->
+    <section id="roadmap" class="roadmap-section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Our Journey</h2>
+          <p>The evolution of the Kite AI ecosystem</p>
+        </header>
+        <div class="timeline">
+          <div class="timeline-line" aria-hidden="true"></div>
+          
+          <div class="timeline-item" data-year="2023 Q1">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content glass-card">
+              <h3>Foundation</h3>
+              <p>Kite AI founded. BitMind protocol launched for deepfake detection.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item" data-year="2023 Q3">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content glass-card">
+              <h3>Series A Funding</h3>
+              <p>Raised $18M led by Polychain Capital to accelerate infrastructure development.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item" data-year="2024 Q1">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content glass-card">
+              <h3>Ecosystem Expansion</h3>
+              <p>Nubila, APRO, APP, and CARV protocols integrated into the network.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item" data-year="2024 Q3">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content glass-card">
+              <h3>10,000 Active Agents</h3>
+              <p>Crossed major milestone with agents operating across multiple protocols.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item" data-year="2025 Q1">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content glass-card">
+              <h3>Global Expansion</h3>
+              <p>Launching regional hubs and partnerships to scale the agentic economy worldwide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Insights Section -->
+    <section id="insights" class="insights-section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Partners & Insights</h2>
+          <p>We're backed by industry leaders and publish our research openly.</p>
+        </header>
+        <div class="insights-grid">
+          <div class="insight-card glass-card">
+            <img src="./polychain.png" alt="Polychain Capital Logo" loading="lazy" width="80" height="80">
+            <h3>$18M Series A Led by Polychain Capital</h3>
+            <p>Fueling our mission to build the foundational layers of the agentic internet.</p>
+          </div>
+          <div class="insight-card glass-card">
+            <div class="stat-icon" style="font-size: 3rem; margin-bottom: 1rem;">📄</div>
+            <h3>Whitepaper: The Agentic Economy</h3>
+            <p>A deep dive into the principles and protocols powering the next generation of AI.</p>
+            <a href="https://gokite.ai/#:~:text=White-,Paper,-Coming%20Soon" class="read-more">Read Now</a>
+          </div>
+          <div class="insight-card glass-card">
+            <div class="stat-icon" style="font-size: 3rem; margin-bottom: 1rem;">✍️</div>
+            <h3>Blog: Zero-Knowledge & AI</h3>
+            <p>Exploring how verifiable computation can bring trust to AI decision-making.</p>
+            <a href="https://medium.com/@KiteAI" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h4>Kite AI</h4>
+          <p>Building the agentic future, one protocol at a time.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="/docs">Documentation</a></li>
+            <li><a href="/careers">Careers</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/whitepaper">Whitepaper</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://x.com/GoKiteAI" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            <li><a href="https://discord.com/invite/gokiteai" target="_blank" rel="noopener noreferrer">Discord</a></li>
+        
+            <li><a href="mailto:hello@kite.ai">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Kite AI. All Rights Reserved.</p>
+        <div>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
